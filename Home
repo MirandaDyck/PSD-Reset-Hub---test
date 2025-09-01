@@ -1,0 +1,104 @@
+import React from "react";
+
+// Replace with your actual logo asset, e.g., import logo from './logo.svg';
+const logoUrl = "/path/to/logo.png";
+
+export default function ModernizingPolicyPage() {
+  return (
+    <main style={{ fontFamily: "sans-serif", maxWidth: 780, margin: "0 auto", padding: "2rem" }}>
+      <header style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "2rem" }}>
+        <img src={logoUrl} alt="Logo" style={{ width: 60, height: 60 }} />
+        <div>
+          <h1 style={{ margin: 0 }}>Modernizing the Policy on Service and Digital</h1>
+          <p style={{ margin: 0, fontSize: "1.2rem", color: "#444" }}>
+            Resetting policy for a digital future
+          </p>
+        </div>
+      </header>
+
+      <nav style={{ marginBottom: "2rem" }}>
+        <strong>On this page:</strong>
+        <ul style={{ marginTop: 8 }}>
+          <li><a href="#why-change">Why Change is Needed</a></li>
+          <li><a href="#about-policy">About Policy on Service and Digital</a></li>
+          <li><a href="#stay-tuned">Stay Tuned</a></li>
+        </ul>
+      </nav>
+
+      <section style={{ marginBottom: "2rem" }}>
+        <p>
+          The Office of Chief Information Officer (OCIO) at Treasury Board of Canada Secretariat (TBS) is modernizing the Policy on Service and Digital (PSD). This reset is a whole-of-government shift in how services are designed, funded and delivered.
+        </p>
+      </section>
+
+      <section id="why-change" style={{ marginBottom: "2rem" }}>
+        <h2>Why Change is Needed</h2>
+        <p>
+          Canadians expect government services that are simple, secure, and easy to use. But too often, outdated systems and rules make services harder to deliver — and harder for people to access.
+        </p>
+        <p>
+          The reset of the Policy on Service and Digital (PSD) is about changing that. It will:
+        </p>
+        <ul>
+          <li>
+            <strong>Build stronger digital foundations:</strong> Modern digital infrastructure is the backbone of great services. Updating the behind-the-scenes systems will connect departments and make services work seamlessly together.
+          </li>
+          <li>
+            <strong>Focus on outcomes, not process:</strong> By reducing red tape, the reset will shift attention from rules and procedures to what really matters: delivering real results for people, departments, and society.
+          </li>
+          <li>
+            <strong>Lay a foundation for the future:</strong> Modernizing our digital policy means Canada maintains control over the data, technology, and talent that power our services — so they remain trustworthy, resilient, and reflect Canadian values.
+          </li>
+        </ul>
+        <p>
+          The PSD reset is about more than updating policy. It’s about building a government that delivers better services today and is ready for tomorrow.
+        </p>
+      </section>
+
+      <section id="about-policy" style={{ marginBottom: "2rem" }}>
+        <h2>About Policy on Service and Digital</h2>
+        <p>
+          The Policy on Service and Digital (PSD) is the Government of Canada’s main policy for how services are designed and delivered. It sets expectations for departments on everything from client experience to digital infrastructure, so that services work better for people.
+        </p>
+        <p>The reset is focused on:</p>
+        <ul>
+          <li>Simple, secure, easy-to-use services for Canadians</li>
+          <li>Stronger digital foundations so government systems work together</li>
+          <li>Better outcomes by reducing red tape and focusing on results</li>
+          <li>
+            A future-ready policy that protects Canada’s control over its data, technology, and talent
+          </li>
+        </ul>
+        <p>
+          The PSD reset is more than a policy update — it’s about creating a digital government that works for today and is ready for tomorrow.
+        </p>
+      </section>
+
+      <section id="stay-tuned" style={{ marginBottom: "2rem" }}>
+        <h2>Stay Tuned</h2>
+        <ul>
+          <li>Keep checking the page for updates.</li>
+          <li>
+            For more information, please reach out to:{" "}
+            <a href="mailto:PSDReset-PSNreinitialisee@tbs-sct.gc.ca">
+              PSDReset-PSNreinitialisee@tbs-sct.gc.ca
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <footer style={{ borderTop: "1px solid #ddd", paddingTop: "2rem", marginTop: "2rem" }}>
+        <h3>The GC Catalogue is a community</h3>
+        <p>
+          The GC Catalogue is a collaboration between the Office of the Chief Information of Canada and Service Canada. Together, we represent a community of public servants committed to supporting government.
+        </p>
+        <p>
+          Share your thoughts and suggestions with us by e-mail:{" "}
+          <a href="mailto:servicedigital-servicesnumerique@tbs-sct.gc.ca">
+            servicedigital-servicesnumerique@tbs-sct.gc.ca
+          </a>
+        </p>
+      </footer>
+    </main>
+  );
+}
